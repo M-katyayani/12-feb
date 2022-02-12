@@ -1,0 +1,21 @@
+i=int(input('enter i value'))
+j=int(input('enter j value'))
+if i==j:
+   print('both are equal')   
+if i!=j:
+    print('not equal')
+if i>j:
+       print(i,' is greater')
+if i<j:
+       print(i,' is smaller')     
+if j>i:
+       print(j,' is greater')
+if j<i:
+       print(j,' is smaller')
+     
+OUTPUT:
+enter i value 12
+enter j value 5
+not equal
+12 is greater
+5 is smaller
