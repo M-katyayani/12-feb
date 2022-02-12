@@ -1,0 +1,31 @@
+Flour=50
+oil=168
+salt=20
+spices=50
+rice=1150
+cname=input('enter customer name:')
+cphno=input('enter customer phone number:')
+nflour=int(input('enter no. of flour packets:'))
+noil=int(input('enter no. of oil packets:'))
+nsalt=int(input('enter no. of salt packets:'))
+nspices=int(input('enter no. of spices packets:'))
+nrice=int(input('enter no. of rice packets:'))
+bill=(flour*nflourr)+(oil*noil)+(salt*nsalt)+(spices*nspices)+(rice*nrice)
+print(bill)
+if bill>5000:
+    disc=bill*10/100
+    print(disc)   
+elif bill>3000:
+    disc=bill*8/100
+    print(disc)
+elif bill>2000:
+    disc=bill*5/100
+elif bill>1000:
+    disc=bill*3/100
+    print(disc)
+elif bill>3000:
+    tax=bill*10/100
+    print(tax)
+else:
+    tax=bill*18/100
+    print(tax)
